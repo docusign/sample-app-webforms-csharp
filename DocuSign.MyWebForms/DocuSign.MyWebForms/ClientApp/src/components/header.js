@@ -29,7 +29,7 @@ export const Header = () => {
               <li className='nav-item'>
                 <a
                   className='nav-link'
-                  href='https://github.com/docusign/sample-app-mywebforms-csharp'
+                  href='https://github.com/docusign/sample-app-webforms-csharp'
                   target='_blank'
                   rel='noreferrer'
                 >
