@@ -1,12 +1,12 @@
 {
-  "Header1": "MyWebForms Sample App",
+  "Header1": "Docusign Web Forms Sample App ",
   "Description1": "A sample loan application that demonstrates some common Docusign API workflows including requesting signatures, embedded signing, forms and data, and real-time status.",
   "GitHubLinkTitle": "Source on GitHub: ",
-  "GitHubLink": "https://github.com/docusign/sample-app-mywebforms-csharp",
+  "GitHubLink": "https://github.com/docusign/sample-app-webforms-csharp",
   "DocuSignLinkTitle": "Docusign.com",
   "DocuSignLink": "http://www.docusign.com/",
-  "FeaturesSection":{
-    "Title": "MyWebForms features:",
+  "FeaturesSection": {
+    "Title": "Docusign Web Forms Sample App features:",
     "Element1": "Send document for signature",
     "Element2": "Send from template",
     "Element3": "Embedded signing",
@@ -18,7 +18,7 @@
     "Element9": "Calculated (formula) fields",
     "Element10": "Download documents and audit trails"
   },
-  "LinksList":{
+  "LinksList": {
     "Title": "API Tools and Links",
     "Subtitle1": "Developer Center",
     "Link1": "https://developers.docusign.com",
@@ -29,7 +29,7 @@
     "Subtitle4": "Developer Community",
     "Link4": "http://stackoverflow.com/questions/tagged/docusignapi"
   },
-  "AboutSection":{
+  "AboutSection": {
     "Title": "About Docusign",
     "Element1": "More than <strong>1 million customers</strong> from over <strong>180 countries</strong>",
     "Element2": "More than <strong>1 billion users</strong> and more than <strong>1 billion eSignature transactions</strong>",
