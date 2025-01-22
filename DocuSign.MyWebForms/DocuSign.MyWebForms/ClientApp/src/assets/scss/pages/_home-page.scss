@@ -7,6 +7,9 @@
       padding: 40px;
       color: $white-main;
       background: $black-background-transparent;
+      @include media-breakpoint-down(md) {
+        padding: 20px 8px;
+      }
     }
 
     .general-section {

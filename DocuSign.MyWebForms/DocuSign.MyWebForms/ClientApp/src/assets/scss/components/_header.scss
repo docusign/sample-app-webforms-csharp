@@ -4,6 +4,11 @@
   top: -4px;
   opacity: 0.7;
 }
+.navbar .navbar-brand {
+  @include media-breakpoint-down(md) {
+    --bs-navbar-brand-font-size: 1rem;
+  }
+}
 .nav-link {
   color: $white-main !important;
 }
