@@ -1,10 +1,10 @@
-# MyWebForms Sample Application: React
+# Web Forms Sample Application: React
 
 ## Introduction
 
-MyWebForms App sample app is to provide ISV developers with a practical example of how to sign documents using web forms with focused view and embedded signing. The application is Single Page Application leveraging the C# Docusign SDK. The SPA is created using React.js and .Net Web API. You can find a live instance at [https://mywebforms.sampleapps.docusign.com](https://mywebforms.sampleapps.docusign.com).
+The Docusign Web Forms Sample App shows developers with a practical example of how to sign documents using web forms with focused view and embedded signing. The application is Single Page Application leveraging the C# Docusign SDK. The SPA is created using React.js and .Net Web API. You can find a live instance at [https://mywebforms.sampleapps.docusign.com](https://mywebforms.sampleapps.docusign.com).
 
-MyWebForms demonstrates the following:
+Web Forms Sample App demonstrates the following:
 
 1. **Authentication** with Docusign via [JWT Grant](https://developers.docusign.com/platform/auth/jwt/).
 2. **Personal Loan:**
