@@ -5,8 +5,7 @@ export const Footer = () => {
   const { t } = useTranslation('Common');
   return (
     <div className='container'>
-      <footer role='contentinfo' className='footer'>
-      </footer>
+      <footer role='contentinfo' className='footer'/>
     </div>
   );
 };
