@@ -8,15 +8,10 @@ export const ActionSection = () => {
   return (
     <div className='text-center'>
       <div className='row'>
-        <div className='col-md-6 offset-md-3  mb-3'>
-          <h3>{t('Footer1')}</h3>
-        </div>
-      </div>
-      <div className='row'>
         <div className='col-xxl-3 offset-xxl-3 mb-1'>
           <Link
             className='btn btn-lg btn-default d-grid'
-            to='https://go.docusign.com/o/sandbox'
+            to='https://www.docusign.com/developers/sandbox'
             target='_blank'
             rel='noreferrer'
           >
@@ -32,13 +27,6 @@ export const ActionSection = () => {
           >
             {t('LearnMoreButton')}
           </Link>
-        </div>
-      </div>
-      <div className='row'>
-        <div className='col-md-6 offset-md-3'>
-          <p>
-            {t('Footer2')}
-          </p>
         </div>
       </div>
     </div>
