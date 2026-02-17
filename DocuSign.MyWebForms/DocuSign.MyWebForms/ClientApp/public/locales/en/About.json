@@ -1,6 +1,6 @@
 {
   "Header1": "Docusign Web Forms Sample App ",
-  "Description1": "A sample loan application that demonstrates some common Docusign API workflows including requesting signatures, embedded signing, forms and data, and real-time status.",
+  "Description1": "A sample loan application that uses JSON Web Token (JWT) Grant authentication and demonstrates common Docusign API workflows including requesting signatures, embedded signing, forms and data, and real-time status.",
   "GitHubLinkTitle": "Source on GitHub: ",
   "GitHubLink": "https://github.com/docusign/sample-app-webforms-csharp",
   "DocuSignLinkTitle": "Docusign.com",
