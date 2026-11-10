@@ -34,7 +34,7 @@ Web Forms Sample App demonstrates the following:
 - Create a Docusign [Developer Account](https://go.docusign.com/o/sandbox/).
 - Create an application on the [Apps and Keys](https://admindemo.docusign.com/authenticate?goTo=appsAndKeys) page.
 - Press "GENERATE RSA" and save the generated key pairs (it will be used later in "Settings configuration" section to configure "private.key")
-- Installed and configured [Node.js](https://nodejs.org/en/download)
+- Installed and configured [Node.js](https://nodejs.org/en/download) `^22.23.4`, `^24.22.1`, `^26.12.1` or higher.
 - Installed and configured [Docker](https://www.docker.com/)
 - Installed and configured [.Net 7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
 - Add all templates from folder 'Templates' to your account

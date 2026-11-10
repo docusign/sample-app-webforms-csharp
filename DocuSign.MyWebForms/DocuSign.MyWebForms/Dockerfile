@@ -13,14 +13,14 @@ RUN apt-get update \
     && apt-get install -y ca-certificates curl gnupg \
     && mkdir -p /etc/apt/keyrings \
     && curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg \
-    && echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_20.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list \
+    && echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_22.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list \
     && apt-get update && apt-get -y install nodejs \
     && npm install -g @angular/cli \
     && npm update \
     && npm config delete proxy
 RUN dotnet publish "DocuSign.MyWebForms/DocuSign.MyWebForms/DocuSign.MyWebForms.csproj" -c Release -o /app/publish
 
-FROM node:20.11.0-bullseye-slim AS node-builder
+FROM node:22.23.4-slim AS node-builder
 WORKDIR /node
 COPY ["DocuSign.MyWebForms/DocuSign.MyWebForms/ClientApp", "/node"]
 RUN npm install && npm run build
